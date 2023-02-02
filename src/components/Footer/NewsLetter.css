@@ -1,0 +1,66 @@
+.gericht__footer-NewsLetter{
+    z-index: 2;
+    border : 1px solid var(--color-golden);
+    background: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gericht__footer-NewsLetter_heading{
+    text-align: center;
+}
+.gericht__footer-NewsLetter_heading p{
+    margin: 1rem 0; 
+    color:var(--color-grey);
+}
+.gericht__footer-NewsLetter_input{
+    margin:3rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gericht__footer-NewsLetter_input input{
+    padding : 1rem;
+    width: 500px;
+    height: 50px;
+    background: var(--color-black);
+    outline: none;
+    border : 1px solid var(--color-golden);
+    margin : 0 2rem 0 0 ;
+
+    font-size: 1rem;
+    color:var(--color-white);
+    font-family: var(--font-base);
+
+}
+.gericht__footer-NewsLetter_input button{
+    background: var(--color-golden);
+}
+
+@media screen  and ( min-width:2000px){
+    .gericht__footer-NewsLetter_input input{
+       width: 800px;
+       height: 90px;
+    }
+}
+
+@media screen  and ( max-width:900px){
+    .gericht__footer-NewsLetter_input {
+      flex-direction: column;
+    }
+    .gericht__footer-NewsLetter_input input{
+        margin : 2rem; 
+        flex-direction: column;
+        width:100%
+      }
+}
+@media screen  and ( max-width:650px){
+    .gericht__footer-NewsLetter_heading h1{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .gericht__footer-NewsLetter_input input{
+       font-size: 12px;
+      }
+      
+}

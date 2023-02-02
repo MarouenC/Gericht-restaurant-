@@ -4,7 +4,7 @@ import {images, data} from '../../constants'
 import './Laurels.css'
 const Laurels = () => {
   return (
-    <div className='gericht__laurels app__bg app__wrapper section__padding' id='awards'>
+    <div className='gericht__laurels app__bg app__wrapper section__padding' id='Awards'>
       <div className='gericht__laurels-content app__wrapper-info'>
         <Subheading  title="Awards & recognition" />
         <h1 className='headtext__cormorant'>Our Laurels</h1>

@@ -1,0 +1,19 @@
+.gericht__findUs-content h1{
+    margin: 0 0 3rem 0 ;
+}
+.gericht__findUs-content_openingHours{
+    margin : 2rem 0;
+}
+.gericht__findUs-content_openingHours p{
+    color: white !important;
+    margin:1rem 0;
+}
+.gericht__findUs-content_openingHours h4{
+    color: var(--color-golden);
+}
+.gericht__findUs-content button{
+    background: var(--color-golden);
+}
+.gericht__findUs-content p{
+    color:var(--color-grey);
+}

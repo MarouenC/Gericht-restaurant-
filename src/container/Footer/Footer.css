@@ -1,0 +1,89 @@
+.gericht__footer{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-black);
+    padding-top: 0;
+}
+.gericht__footer-ending {
+    padding: 2rem 1rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.gericht__footer-ending_contact{
+    flex:1;
+    text-align: center;
+}
+.gericht__footer-ending_quote{
+    flex:1;
+    text-align: center;
+}
+.gericht__footer-ending_quote h1{
+    margin-bottom: 2rem;
+    text-transform:uppercase;
+}
+.gericht__footer-ending_quote-icons{
+    margin : 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--color-golden)
+}*
+.gericht__footer-ending_quote-icons svg{
+   cursor: pointer;
+}
+.gericht__footer-ending_quote-icons svg:hover{
+    color:var(--color-white);
+ }
+.gericht__footer-ending_quote-icons :nth-child(2){
+    margin : 0 1rem;
+}
+.gericht__footer-ending_hours{
+    flex:1;
+    text-align: center;
+}
+.gericht__footer-ending_contact h5,
+.gericht__footer-ending_hours h5{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    margin: 0 0 2rem 0;
+}
+.gericht__footer-ending_contact p,
+.gericht__footer-ending_hours p{
+   color:var(--color-grey);
+   margin-bottom: 1rem;
+}
+.gericht__footer p:last-child{
+    z-index: 2;
+    color:var(--color-grey);
+}
+
+@media screen and (max-width:1100px){
+    .gericht__footer-ending{
+        flex-direction: column;
+    }
+   
+    .gericht__footer-ending_quote{
+        order:-1;
+    }
+    .gericht__footer-ending_contact{
+        margin: 3rem 0;
+    }
+}
+@media screen and (max-width:650px){
+    .gericht__footer-ending_contact h5,
+    .gericht__footer-ending_hours h5{
+        font-size:27px;
+    }
+}
