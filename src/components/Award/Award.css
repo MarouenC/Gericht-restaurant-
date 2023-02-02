@@ -1,0 +1,20 @@
+.gericht__award{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gericht__award-content{
+    margin : 1rem;
+}
+.gericht__award h6{
+    color: var(--color-golden);
+}
+.gericht__award p{
+    color: var(--color-grey);
+}
+
+.gericht__award-image img{
+    width: 79px;
+    height: 79px;   
+}

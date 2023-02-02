@@ -1,0 +1,39 @@
+.gericht__chef{
+    width: 100%;
+}
+.gericht_chef-content h1{
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.gericht_chef-content h3{
+    margin-top: 2rem;
+    font-size: 32px;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color:var(--color-golden);
+}
+.gericht__chef-content_singImage{
+    margin-top: 2rem;
+    width: 235px;
+    height: 83px;
+}
+.gericht_chef-content p {
+    color: var(--color-grey);
+}
+.gericht__chef-content_quote{
+    width: 47px;
+    height: 40px;
+}
+@media screen and (max-width: 1150px){
+    .gericht__chef{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 650px){
+    .gericht__chef-content_singImage{
+       
+        width: 180px;
+        height: 75px;
+    }
+}

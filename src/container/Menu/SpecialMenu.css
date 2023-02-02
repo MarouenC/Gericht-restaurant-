@@ -1,0 +1,97 @@
+.gericht__specialMenu{
+    flex-direction: column;
+    background: var(--color-black);
+}
+.gericht__specialMenu-heading{
+    flex-direction: column;
+    text-align: center;
+}
+
+.gericht__specialMenu-content{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin : 2rem 0;
+
+}
+.gericht__specialMenu-content_wine{
+  
+}
+.gericht__specialMenu-content_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0 2rem;
+}
+.gericht__specialMenu-content_image img{
+    max-width: 444px;
+    height:auto;
+}
+.gericht__specialMenu-content_cocktails{
+   
+
+}
+.gericht__specialMenu-button{
+    margin : 2rem 0 0 0;
+    background: var(--color-golden);
+}
+.gericht__specialMenu-content_wine h2,
+.gericht__specialMenu-content_cocktails h2{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    color:#fff;
+}
+
+@media screen and (min-width:2000px){
+    .gericht__specialMenu-content{
+        width:100%;
+    }
+    .gericht__specialMenu-content_wine{
+        width: 100%;
+    }
+    .gericht__specialMenu-content_image{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .gericht__specialMenu-content_cocktails{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1100px){
+    .gericht__specialMenu-content{
+        flex-direction: column;
+    }
+    .gericht__specialMenu-content_wine{
+        width: 100%;
+    }
+    .gericht__specialMenu-content_image{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .gericht__specialMenu-content_image img{
+        max-width: 300px;
+    }
+    .gericht__specialMenu-content_cocktails{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px){
+    .gericht__specialMenu-content{
+        flex-direction: column;
+    }
+    .gericht__specialMenu-content_wine{
+        width: 100%;
+    }
+    .gericht__specialMenu-content_image{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .gericht__specialMenu-content_image img{
+        max-width: 300px;
+    }
+    .gericht__specialMenu-content_cocktails{
+        width: 100%;
+    }
+}

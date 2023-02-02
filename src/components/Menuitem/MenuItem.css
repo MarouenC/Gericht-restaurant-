@@ -1,0 +1,34 @@
+.gericht__MenuItem{
+    flex-direction: column;
+    margin: 2rem 0rem;
+    width:100%;
+}
+.gericht__MenuItem-title{
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gericht__MenuItem-title h5:first-child{
+    color: var(--color-golden);
+}
+.gericht__MenuItem-price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gericht__MenuItem-price div{
+    width: 100px;
+    height: 1px;
+    background:var(--color-grey);
+    margin : 0 1rem;
+}
+.gericht__MenuItem-tag{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.gericht__MenuItem-tag p{
+    color: var(--color-grey);
+}

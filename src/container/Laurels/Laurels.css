@@ -1,0 +1,20 @@
+.gericht__laurels-content{
+    flex:1
+}
+.gericht__laurels-content h1{
+    margin : 0 0 2rem 0 ;
+}
+.gericht__laurels-image{
+    flex:1
+}
+.gericht__laurels-content_awards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+    grid-gap : 1rem;
+}
+@media screen and (max-width : 650px){
+    .gericht__laurels-content_awards{
+       display: flex;
+       flex-direction: column;
+    }
+}
